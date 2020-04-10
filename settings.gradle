@@ -1,4 +1,6 @@
 rootProject.name = 'hello-groovy'
 
 include 'hello:lang:helloworld'
-
+include 'hello:lang:closures'
+findProject(':hello:lang:helloworld')?.name = 'helloworld'
+findProject(':hello:lang:closures')?.name = 'closures'
