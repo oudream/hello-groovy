@@ -1,0 +1,3 @@
+[submodule "referto/groovy-examples"]
+	path = referto/groovy-examples
+	url = https://github.com/apache/groovy-examples

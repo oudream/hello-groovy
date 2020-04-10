@@ -1,0 +1,4 @@
+rootProject.name = 'hello-groovy'
+
+include 'hello:lang:helloworld'
+
